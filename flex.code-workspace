@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Documents/img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "flex"
+	}
+}
