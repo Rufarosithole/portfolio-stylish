@@ -105,7 +105,7 @@ h3 {
   color: #e5b21b;
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .head p {
@@ -138,12 +138,12 @@ h3 {
   display: flex;
   font-size: 8px;
   font-weight: lighter;
-  margin-top: 40px;
+  margin-top: 21px;
   color: white;
   justify-content: space-evenly;
   margin-right: 80px;
   margin-left: 80px;
-  padding-bottom: 20px;
+  padding-bottom: 45px;
 }
 
 .about {
@@ -182,7 +182,7 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   width: 468px;
-  height: 40vh;
+  height: 54vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -194,7 +194,7 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   width: 468px;
-  height: 40vh;
+  height: 54vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -206,7 +206,7 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   width: 468px;
-  height: 40vh;
+  height: 54vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -218,7 +218,7 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   width: 468px;
-  height: 40vh;
+  height: 54vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -302,7 +302,7 @@ h5 {
 }
 
 .s {
-  padding-top: 115px;
+  padding-top: 208px;
 }
 .s h6 {
   font-size: 15px;
@@ -393,6 +393,9 @@ h7 {
   }
   h1 {
     font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .body h2 {
     font-size: 13px;
@@ -431,6 +434,9 @@ h7 {
   }
   p {
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   span {
     border-radius: 60%;
@@ -478,6 +484,7 @@ h7 {
   .head {
     color: #e5b21b;
     display: flex;
+    align-items: center;
     justify-content: center;
     font-weight: bold;
   }
@@ -536,12 +543,15 @@ h7 {
     align-items: center;
     justify-content: center;
   }
+  .s {
+    padding-top: 125px;
+  }
   .box1 {
     background-image: url(portfolio-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 325px;
-    height: 40vh;
+    height: 37vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -552,8 +562,8 @@ h7 {
     background-image: url(portfolio-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 500px;
-    height: 40vh;
+    width: 504px;
+    height: 37vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -565,7 +575,7 @@ h7 {
     background-size: cover;
     background-repeat: no-repeat;
     width: 500px;
-    height: 40vh;
+    height: 37vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -609,6 +619,7 @@ h7 {
     align-items: center;
     padding: 30px;
     margin-left: 10px;
+    margin-top: 28px;
     flex-wrap: wrap;
   }
   .Portfolio h5 {

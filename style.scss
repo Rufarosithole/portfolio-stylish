@@ -112,7 +112,7 @@ h3{
     color: #e5b21b;
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .head p{
@@ -146,12 +146,12 @@ h3{
     display: flex;
     font-size: 8px;
     font-weight: lighter;
-    margin-top: 40px;
+    margin-top: 21px;
     color: white;
     justify-content: space-evenly;
     margin-right: 80px;
     margin-left: 80px;
-    padding-bottom: 20px;
+    padding-bottom: 45px;
     
 }
 
@@ -194,7 +194,7 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     width: 468px;
-    height: 40vh;
+    height: 54vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -206,7 +206,7 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     width: 468px;
-    height: 40vh;
+    height: 54vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -220,7 +220,7 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     width: 468px;
-    height: 40vh;
+    height: 54vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -233,7 +233,7 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     width: 468px;
-    height: 40vh;
+    height: 54vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -333,7 +333,7 @@ h5{
 }
 
 .s{
-    padding-top: 115px;
+    padding-top: 208px;
 
     h6{
         font-size: 15px;
@@ -433,6 +433,9 @@ i{
 
     h1{
         font-size: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .body h2{
@@ -477,6 +480,9 @@ i{
     
     p{
         font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     span{
@@ -541,6 +547,7 @@ i{
     .head{
         color: #e5b21b;
         display: flex;
+        align-items: center;
         justify-content: center;
         font-weight: bold;
     }
@@ -613,6 +620,12 @@ i{
         align-items: center;
         justify-content: center;
     }
+
+    
+.s{
+    padding-top: 125px;
+}
+
     
     .box1{
         background-image: url(portfolio-1.jpg);
@@ -620,7 +633,7 @@ i{
         background-repeat: no-repeat;
         // max-width: 80vh;
         width: 325px;
-        height: 40vh;
+        height: 37vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -634,8 +647,8 @@ i{
         background-image: url(portfolio-2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        width: 500px;
-        height: 40vh;
+        width: 504px;
+        height: 37vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -651,7 +664,7 @@ i{
         background-size: cover;
         background-repeat: no-repeat;
         width: 500px;
-        height: 40vh;
+        height: 37vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -702,6 +715,7 @@ i{
         align-items: center;
         padding: 30px;
         margin-left: 10px;
+        margin-top: 28px;
         flex-wrap: wrap;
 
         h5{
