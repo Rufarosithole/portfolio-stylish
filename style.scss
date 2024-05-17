@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 @font-face{
     font-family:MyCostumefont ;
     src:url(SourceSans3-Regular.ttf);
@@ -83,13 +87,15 @@ span{
     padding-bottom: 30px;
 
     h3{
-        font-size: 15px;
+        font-size: 25px;
         margin-top: 5px;
+        font-weight: bold;
     }
 
     p{
         font-size: 15px;
         margin-top: 5px;
+        opacity: 70%;
     }
 }
 
@@ -98,6 +104,10 @@ span{
     font-size: 20px;
     display: flex;
     justify-content: center;
+
+    p{
+        font-weight: bold;
+    }
 }
 
 h3{
@@ -113,6 +123,8 @@ h3{
     display: flex;
     justify-content: center;
     padding-top: 40px;
+    font-weight: bold;
+    font-size: 19px;
 }
 
 .head p{
@@ -289,6 +301,7 @@ h6{
 .pp{
     color: #f2b806;
     padding-top: 5px;
+    font-weight: 200;
     
 }
 
@@ -355,6 +368,13 @@ h5{
     justify-content: center;
     padding-bottom: 30px;
 
+    p {
+        font-weight: bold;
+        font-size: 12px;
+        opacity: 59%;
+        margin-right: 23px;
+    }
+
 
 }
 
@@ -379,6 +399,19 @@ i{
     margin-right: 20px;
    
 }
+}
+
+    .round {
+        background-color: #1d809f;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 57%;
+        height: 5vh;
+        position: relative;
+        top: 0px;
+        left: 3px;
 }
 
 
@@ -526,19 +559,23 @@ i{
     }
 
     .web p{
+        font-size: 19px;
         padding-bottom: 20px;
+        opacity: 70%;
     }
+    
     
     .topic{
         color: white;
         font-size: 20px;
         display: flex;
+        align-items: center;
         justify-content: center;
     }
 
-    p .topic{
-        margin-right: -39px;
-    }
+    // p .topic{
+    //     margin-right: -39px;
+    // }
     
     h3{
         display: flex;
@@ -904,7 +941,32 @@ i{
     padding: 26px;
 }
 
+.round{
+    height: 33px;
+}
 
+h6.milk {
+    margin-top: -38px;
+}
+
+
+}
+
+@media  only screen and (min-width:766px) and (max-width: 767.9px){
+
+    .banner {
+        height: 84vh;
+    }
+
+    .dark {
+        padding-bottom: 18px;
+        padding-left: 30px;
+    }
+
+    .s {
+        padding-top: 121px;
+    }
+    
 }
 
 @media only screen and (min-width:900px) and (max-width:1024px){
@@ -947,6 +1009,7 @@ i{
    .box4{
     height: 24vh;
    }
+   
 
 
    .ice{
@@ -984,6 +1047,81 @@ i{
     padding: 26px;
    }
 
+   .round{
+    height: 33px;
+   }
+
+}
+
+@media screen and (min-width: 1399.98px){
+
+    .web p {
+        font-size: 21px;
+        margin-top: 5px;
+        opacity: 70%;
+    }
+
+    .banner{
+        height: 86vh;
+    }
+
+    h6.milk {
+        margin-top: 55px;
+    }
+
+    .box1 {
+        background-image: url(portfolio-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 468px;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end
+    }
+
+    .box2 {
+        background-image: url(portfolio-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 468px;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end
+    }
+
+    .box3 {
+        background-image: url(portfolio-3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 468px;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .box4{
+        height: 50vh;
+    }
+
+    .round {
+        background-color: #1d809f;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 57%;
+        height: 32px;
+        position: relative;
+        top: 1px;
+        left: 3px;
+    }
+    
 }
 
 
