@@ -507,9 +507,7 @@ h7 {
   .topic {
     color: white;
     font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 40px;
   }
   h3 {
     display: flex;
@@ -518,9 +516,7 @@ h7 {
   }
   .head {
     color: #e5b21b;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 31px;
     font-weight: bold;
   }
   .head p {
